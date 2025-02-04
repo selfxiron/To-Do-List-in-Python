@@ -5,6 +5,9 @@ A basic command-line to-do list that lets you add, view, and remove tasks easily
 - ✅ View, Load, and Save tasks effortlessly
 - ➕ Add New Tasks to your list anytime
 - ❌ Remove Tasks by selecting their number
+- ✏️ Edit existing tasks
+- 🌟 User-friendly and interactive command-line UI
+- 💬 Smooth and intuitive UX with emoji-based feedback for a visually appealing experience
 - 🔁 Continuous Loop until you decide to exit
 
 ## 🚀 How to Run
@@ -19,6 +22,20 @@ A basic command-line to-do list that lets you add, view, and remove tasks easily
 
 ## 💡 Contributing
 Feel free to fork this repository and add more features! If you find any bugs, create an issue or submit a pull request.
+How can you?
+1. Fork the repository.
+2. Create a branch for your feature (git checkout -b feature-name).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push your changes (git push origin feature-name).
+5. Open a Pull Request.
 
 ## 📜 License
 This project is open-source and free to use.
+
+## Contact Information
+
+- **Name**: Jeet Pratap Singh Rajput
+- **Email**: selfxiron@gmail.com 
+- **GitHub**: https://www.github.com/selfxiron/
+- **LinkedIn**: https://www.linkedin.com/in/jeet-pratap-singh-rajput
+- **Twitter**: (https://x.com/selfxiron)
