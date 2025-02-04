@@ -2,10 +2,10 @@
 A basic command-line to-do list that lets you add, view, and remove tasks easily. Built using Python, this project helps you stay organized and productive. 🚀
 
 ## ✨ Features
-- ✅ View all tasks
-- ➕ Add new tasks
-- ❌ Remove tasks by selecting a task number
-- 🔁 Runs in a loop until you choose to exit
+- ✅ View, Load, and Save tasks effortlessly
+- ➕ Add New Tasks to your list anytime
+- ❌ Remove Tasks by selecting their number
+- 🔁 Continuous Loop until you decide to exit
 
 ## 🚀 How to Run
 1. Make sure you have **Python** installed on your computer.

@@ -18,10 +18,13 @@ def save_tasks():
 
 def show_tasks():
     if not tasks:
-        print("No task available.")
+        print("\n📜 No tasks available.")
     else:
+        print("\n📌 Your To-Do List:")
+        print("-" * 30)
         for index, task in enumerate(tasks, start=1):
-            print(f"{index}. {task}")
+            print(f"  {index}. {task}")
+        print("-" * 30)
 
 def add_task():
     task = input("\nEnter new task:")
