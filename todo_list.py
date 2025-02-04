@@ -1,6 +1,20 @@
 # To-Do List
+import os # Import for file handling
 
-tasks = []
+tasks = [] # List to store tasks
+
+def load_tasks():
+    """Load tasks from a file when the program starts."""
+    if os.path.exists("tasks.txt"): # if file exists, read it
+        with open("tasks.txt", "r") as file:
+            for line in file:
+                tasks.append(line.strip()) # remove extra spaces
+
+def save_tasks():
+    """Save the tasks to a file."""
+    with open("tasks.txt", "w") as file: # open in write mode
+        for task in tasks:
+            file.write(task + "\n") # write each task on a new line
 
 def show_tasks():
     if not tasks:
@@ -27,6 +41,8 @@ def remove_task():
         print("Please enter a valid task number.")
 
 def main():
+    load_tasks() # load existing tasks on startup
+    print("Welcome to the To-Do List App!")
     while True:
         print("\nTo-Do List Options:")
         print("1. View Tasks")
@@ -39,8 +55,10 @@ def main():
             show_tasks()
         elif choice == "2":
             add_task()
+            save_tasks()
         elif choice == "3":
             remove_task()
+            save_tasks()
         elif choice == "4":
             print("\nExiting... Have a productive day!")
             break
