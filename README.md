@@ -10,6 +10,10 @@ A basic command-line to-do list that lets you add, view, and remove tasks easily
 - 💬 Smooth and intuitive UX with emoji-based feedback for a visually appealing experience
 - 🔁 Continuous Loop until you decide to exit
 
+## Demo 🎥  
+[![Watch the Demo](https://img.youtube.com/vi/umSh4fxAqGY/maxresdefault.jpg)](https://youtu.be/umSh4fxAqGY)
+
+
 ## 🚀 How to Run
 1. Make sure you have **Python** installed on your computer.
 2. Download or clone this repository:
